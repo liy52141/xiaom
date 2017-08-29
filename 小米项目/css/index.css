@@ -1,0 +1,389 @@
+.topbar {
+  height: 40px;
+  background-color: #333;
+}
+.topbar .topbar-left > a {
+  color: white;
+  line-height: 40px;
+  padding-left: 2px;
+  color: #ccc;
+}
+.topbar .topbar-left > a:hover {
+  color: whitesmoke;
+}
+.topbar .topbar-left > i {
+  color: white;
+}
+.topbar .topbar-right {
+  z-index: 99;
+  position: relative;
+}
+.topbar .topbar-right .dl {
+  position: absolute;
+  right: 180px;
+  top: -28px;
+}
+.topbar .topbar-right .dl > a {
+  color: white;
+}
+.topbar .topbar-right .dl > i {
+  color: white;
+}
+.topbar .topbar-right .shop {
+  position: absolute;
+  right: 30px;
+  top: -40px;
+  width: 120px;
+  height: 40px;
+  background-color: #424242;
+  text-align: center;
+}
+.topbar .topbar-right .shop > a {
+  color: #ccc;
+  line-height: 40px;
+}
+.topbar .topbar-right .xiala {
+  width: 300px;
+  height: 100px;
+  background-color: #ccc;
+  position: absolute;
+  left: -180px;
+  display: none;
+}
+.topbar .topbar-right .xiala > span {
+  line-height: 100px;
+  text-align: center;
+}
+nav {
+  position: relative;
+  height: 100px;
+  background-color: white;
+}
+nav .zuo {
+  line-height: 100px;
+}
+nav .zuo > img:last-child {
+  padding: 20px;
+}
+nav .zhong {
+  position: absolute;
+  top: 0;
+  left: 600px;
+}
+nav .zhong > a {
+  display: inline-block;
+  height: 100px;
+  line-height: 100px;
+  font-size: 16px;
+  padding-left: 5px;
+}
+nav .zhong > a:hover {
+  color: orangered;
+  text-decoration: none;
+}
+nav .you {
+  position: absolute;
+  right: 689px;
+  top: 22px;
+}
+nav .you > input {
+  position: absolute;
+  width: 244px;
+  height: 50px;
+  padding-left: 108px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  right: -264px;
+}
+nav .you > button {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-left: transparent;
+  box-sizing: border-box;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  right: -314px;
+}
+nav .you > button > i {
+  line-height: 50px;
+}
+nav .tuxiala {
+  width: 100%;
+  height: 230px;
+  background-color: white;
+  border: 1px 0 solid red;
+  display: none;
+}
+nav .tuxiala .tuxiala-tu {
+  margin-left: 60px;
+  margin-top: -6px;
+}
+nav .tuxiala .tuxiala-tu li {
+  float: left;
+  border-right: 1px solid red;
+}
+nav .tuxiala .tuxiala-tu li > a {
+  margin-left: 80px;
+  display: inline-block;
+  width: 221px;
+  height: 170px;
+  margin: 20px;
+  text-align: center;
+}
+nav .tuxiala .tuxiala-tu li > a > img {
+  width: 160px;
+  height: 110px;
+  margin: 20px 30px;
+}
+nav .tuxiala .tuxiala-tu li > a .xiaomi {
+  font-size: 14px;
+  margin-left: 78px;
+  margin: 0 auto;
+}
+nav .tuxiala .tuxiala-tu li > a .shuzi {
+  font-size: 10px;
+  color: red;
+  margin-left: 78px;
+  padding-top: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+main {
+  height: 460px;
+  position: relative;
+}
+main .main-left {
+  width: 235px;
+  height: 460px;
+  background-color: #9c9c9c;
+}
+main .main-left > ul {
+  width: 235px;
+  height: 420px;
+  padding-top: 20px;
+}
+main .main-left > ul > li {
+  width: 100%;
+  text-align: center;
+  line-height: 42px;
+  font-size: 16px;
+}
+main .main-left > ul > li:hover {
+  background-color: orangered;
+}
+main .main-right1 {
+  position: relative;
+}
+main .main-right1 .main-lunbo {
+  width: 797px;
+  position: relative;
+  margin-left: 235px;
+  margin-top: -460px;
+}
+main .main-right1 .main-lunbo ul {
+  width: 1000%;
+}
+main .main-right1 .main-lunbo ul li {
+  position: absolute;
+  width: 797px;
+  display: none;
+}
+main .main-right1 .main-lunbo ul li img {
+  width: 100%;
+  height: 460px;
+}
+main .main-right1 .main-right2 {
+  position: absolute;
+  left: 235px;
+  height: 460px;
+  top: 0px;
+}
+main .main-right1 .main-right2 ul {
+  float: left;
+  height: 460px;
+  width: 265px;
+}
+main .main-right1 .main-right2 ul li {
+  width: 100%;
+  height: 76.6px;
+  background-color: red;
+  border: 1px solid #000;
+}
+main .main-right1 .main-right2 ul li > a:first-child img {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  margin: 20px 80px 20px 20px;
+}
+main .main-right1 .main-right2 ul li > a:first-child .shou {
+  margin: -48px 60px 30px 75px;
+}
+main .main-right1 .main-right2 ul li > a:last-child {
+  display: block;
+  width: 58px;
+  height: 22px;
+  font-size: 12px;
+  text-align: center;
+  color: #000;
+  border: 1px solid yellow;
+  box-sizing: border-box;
+  margin-left: 190px;
+  margin-top: -50px;
+}
+main .main-right1 .yuandian {
+  bottom: -400px;
+  height: 10px;
+  position: absolute;
+  left: calc(45%);
+}
+main .main-right1 .yuandian > ul li {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  opacity: .5;
+  float: left;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+main .main-right1 .yuandian > ul li.active {
+  background-color: orangered;
+}
+main .main-right1 .lj,
+main .main-right1 .yj {
+  position: absolute;
+  font-size: 30px;
+  color: black;
+  top: 210px;
+  cursor: pointer;
+}
+main .main-right1 .yj {
+  right: 210px;
+}
+main .main-right1 .lj {
+  left: 250px;
+}
+.footer {
+  background-color: #fff;
+}
+.footer .footerService {
+  padding: 27px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.footer .footerService ul li {
+  float: left;
+  width: 245px;
+  height: 27px;
+  line-height: 27px;
+  font-size: 16px;
+  color: #616161;
+  padding: 0 40px;
+  box-sizing: border-box;
+  border-right: 1px solid #e0e0e0;
+  font-size: 17px;
+}
+.footer .footerService ul li:last-child {
+  border: none;
+}
+.footer .footerService ul li a {
+  color: #333;
+}
+.footer .footerService ul li a span {
+  font-size: 22px;
+  font-weight: 700;
+}
+.footer .footerInfo {
+  padding: 40px 0;
+}
+.footer .footerInfo .infoLeft {
+  float: left;
+}
+.footer .footerInfo .infoLeft dl {
+  float: left;
+  width: 160px;
+}
+.footer .footerInfo .infoLeft dl dt {
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.footer .footerInfo .infoLeft dl dd {
+  font-size: 12px;
+  line-height: 26px;
+}
+.footer .footerInfo .infoLeft dl dd a {
+  color: #333;
+}
+.footer .footerInfo .infoRight {
+  float: right;
+  width: 180px;
+  padding: 0 30px;
+  border-left: 1px solid #ccc;
+  text-align: center;
+}
+.footer .footerInfo .infoRight h3 {
+  color: #ff6700;
+}
+.footer .footerInfo .infoRight p {
+  font-size: 12px;
+  color: #ccc;
+}
+.footer .footerInfo .infoRight a {
+  display: block;
+  width: 120px;
+  height: 30px;
+  margin: 5px auto;
+  border: 1px solid #ff6700;
+  line-height: 30px;
+  color: #ff6700;
+  font-size: 12px;
+  text-align: center;
+}
+.footer .friendLink {
+  padding: 30px 0;
+}
+.footer .friendLink .friends .sublogo {
+  float: left;
+}
+.footer .friendLink .friends .links {
+  float: left;
+}
+.footer .friendLink .friends .links .linksTop {
+  margin-left: 10px;
+  height: 16px;
+  line-height: 14px;
+  padding-bottom: 8px;
+  font-size: 12px;
+}
+.footer .friendLink .friends .links .linksTop ul li {
+  float: left;
+}
+.footer .friendLink .friends .links .linksTop ul li span {
+  margin: 0 4px;
+}
+.footer .friendLink .friends .links p {
+  margin: 0 0 0 10px;
+  font-size: 12px;
+  color: #ccc;
+}
+.footer .friendLink .friends .links p a {
+  color: #ccc;
+}
+.footer .friendLink .friends .links p a:hover {
+  color: #ff6700;
+}
+.footer .friendLink .friends .imgR {
+  float: right;
+}
+.footer .friendLink .friends .imgR img {
+  float: left;
+  margin-left: 10px;
+}
+.footer .friendLink .slogon {
+  margin: 30px 0 40px;
+  text-align: center;
+  height: 28px;
+  font: 18px/28px "宋体";
+  color: #ddd;
+}
